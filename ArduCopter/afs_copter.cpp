@@ -9,7 +9,7 @@
 /*
   setup radio_out values for all channels to termination values
  */////
-void AP_AdvancedFailsafe_Copter::terminate_vehicle(void)
+void AP_AdvancedFailsafe_Copter::terminate_vehicle(void)//
 {
     if (_terminate_action == TERMINATE_ACTION_LAND) {
         copter.set_mode(Mode::Number::LAND, ModeReason::TERMINATE);
