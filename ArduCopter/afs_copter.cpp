@@ -5,7 +5,7 @@
 #include "Copter.h"
 
 #if ADVANCED_FAILSAFE == ENABLED
-
+////////
 /*
   setup radio_out values for all channels to termination values
  */
